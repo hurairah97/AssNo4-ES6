@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css">
+  <style>
+    .hero-section {
+      background-image: url('images/background.jpg');
+      background-size: cover;
+      background-position: center;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: rgb(32, 32, 32);
+      text-align: center;
+    }
+
+    .hero-section h1 {
+      font-size: 4rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero-section p {
+      font-size: 1.5rem;
+    }
+    .footer {
+      background-color: #dddddda1;
+      padding: 10px ;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#"> <img src="images/logo.png" style="height: 40px; width: 200px;"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Logout</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  <div class="hero-section">
+    <div class="container">
+      <h1>Welcome to Shining</h1>
+      <p>Shopping amazing things with Us!</p>
+      <a href="#features" class="btn btn-primary btn-lg mt-4">Learn More</a>
+    </div>
+  </div>
+
+  <section id="features" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card mb-4 ">
+            <img src="images/pic1.jpg" class="card-img-top" alt="Feature 1">
+            <div class="card-body">
+              <h5 class="card-title">Bags</h5>
+              <p class="card-text">It can hold or carry things. It may be made from cloth, leather, plastic, or paper. Many bags are disposable but some are made to use for a long time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/pic4.jpg" class="card-img-top" alt="Feature 2">
+            <div class="card-body">
+              <h5 class="card-title">Books</h5>
+              <p class="card-text">Similes and onomatopoeia (sound words) are some other examples of descriptive writing. Basic Sentence: The leaf fell off the tree. Check the latest one.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4">
+            <img src="images/pic3.jpg" class="card-img-top" alt="Feature 3">
+            <div class="card-body">
+              <h5 class="card-title">Flowers</h5>
+              <p class="card-text">It is a tube-like structure in which connects stigma and ovary. The style is particularly crucial throughout the fertilization process because it not only.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+ 
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 Keep Shopping. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
